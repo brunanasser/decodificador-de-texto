@@ -1,0 +1,165 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.logo__alura {
+    gap: 40px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 120px;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+}
+
+.text__area {
+    border: none;
+    color: #0A3871;
+    font-size: 32px;
+    height: 48px;
+    margin: 130px 160px 0 0;
+    padding: 64px;
+    resize: none;
+    text-transform: lowercase;
+    width: 680px;
+}
+
+::placeholder {color: #0A3871;}
+    .text__area:focus {
+        outline: none;
+    }
+
+.informacao {
+        align-items: center;
+        color: #495057;
+        display: flex;
+        font-size: 14px;
+        gap: 8px;
+        height: 18px;
+        margin-top: 190px;
+        opacity: 80%;
+}
+    
+.atencao {
+        height: 16px;
+        width: 16px;
+}
+
+.botoes {
+    display: flex;
+}
+
+.btn__encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFF;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 15px;
+    width: 328px;
+}
+
+.btn__desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.mensagem {
+    background-color: #FFF;
+    border-radius: 32px;
+    color: #0A3871;
+    display: flex;
+    height: 620px;
+    margin-left: 40px;
+    padding-left: 20px;
+    width: 360px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.imagem__mensagem {
+    background: #FFF;
+    color: #0A3871;
+    height: 300px;
+    margin-top: 120px;
+    width: 335px;
+}
+
+.imagem__mensagem:focus {
+    outline: none;
+}
+
+.text__cript {
+    background-color: #FFF;
+    border: none;
+    color: #495057;
+    display: none;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    outline: 0;
+    resize: none;
+    width: 335px;
+}
+
+.boneco {
+    background: #FFF;
+    height: 304px;
+    width: 335px;
+}
+
+.h5__mensagem {
+    align-self: stretch;
+    background: #FFF;
+    color: #343A40;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.p__mensagem {
+    align-self: stretch;
+    background: #FFF;
+    color: #495057;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn__copiar {
+    align-items: flex-start;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    display: none;
+    height: 67px;
+    margin-top: 50px;
+    width: 336px;
+}

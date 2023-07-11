@@ -1,0 +1,318 @@
+@media screen and (min-width: 375px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .logo__alura {
+        height: 25px;
+        margin-left: 0;
+        width: 70px;
+    }
+
+    .text__area {
+        font-size: 24px;
+        margin-left: -120px;
+        margin-top: 0;
+    }
+
+    .informacao {
+        font-size: 8px;
+        margin-left: -60px;
+        margin-top: 20px;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .btn__encriptar, .btn__desencriptar {
+        border-radius: 20px;
+        font-size: 18px;
+        height: 60px;
+        margin: 10px 0 0 -60px;
+        width: 190px;
+    }
+
+    .mensagem {
+        height: 130px;
+        margin-left: -60px;
+        margin-top: 10px;
+        width: 170px;
+    }
+
+    .imagem__mensagem {
+        height: 100px;
+        margin-left: -10px;
+        margin-top: 20px;
+        width: 170px;
+    }
+
+    .text__cript {
+        display: none;
+        height: 80px;
+        width: 170px;
+    }
+
+    .boneco {
+        display: none;
+    }
+
+    .h5__mensagem {
+        border-radius: 10px;
+        font-size: 14px;
+        margin-left: 0;
+        margin-top: -10px;
+    }
+
+    .p__mensagem {
+        font-size: 12px;
+        margin-left: 0px;
+        margin-top: 12px;
+        width: 170px;
+    }
+
+    .btn__copiar {
+        border-radius: 20px;
+        font-size: 18px;
+        height: 60px;
+        margin-left: -10px;
+        margin-top: 35px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .logo__alura {
+        margin-top: 20px;
+    }
+
+    .text__area {
+        margin-top: 40px;
+    }
+
+    .informacao {
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .btn__encriptar {
+        width: 155px;
+    }
+
+    .btn__desencriptar {
+        margin-left: 10px;
+        width: 155px;
+    }
+
+    .mensagem {
+        margin-top: 30px;
+        width: 320px;
+    }
+
+    .imagem__mensagem {
+        width: 320px;
+    }
+
+    .text__cript {
+        width: 320px;
+    }
+
+    .h5__mensagem {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .p__mensagem {
+        font-size: 14px;
+        margin-top: 25px;
+        width: 320px;
+    }
+
+    .btn__copiar {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .logo__alura {
+        gap: 40px;
+        height: 18px;
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 50px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    
+    .text__area {
+        border: none;
+        color: #0A3871;
+        font-size: 32px;
+        height: 48px;
+        margin: 130px 160px 0 -90px;
+        padding: 64px;
+        resize: none;
+        text-transform: lowercase;
+        width: 680px;
+    }
+    
+    ::placeholder {color: #0A3871;}
+        .text__area:focus {
+            outline: none;
+        }
+    
+    .informacao {
+            align-items: center;
+            color: #495057;
+            display: flex;
+            font-size: 14px;
+            gap: 8px;
+            height: 18px;
+            margin-top: 235px;
+            opacity: 80%;
+    }
+        
+    .atencao {
+            height: 16px;
+            width: 16px;
+    }
+    
+    .botoes {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .btn__encriptar {
+        background-color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #FFF;
+        cursor: pointer;
+        height: 67px;
+        margin-top: 15px;
+        width: 328px;
+    }
+    
+    .btn__desencriptar {
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    }
+    
+    .mensagem {
+        background-color: #FFF;
+        border-radius: 32px;
+        color: #0A3871;
+        display: flex;
+        flex-direction: column;
+        height: 620px;
+        margin-left: 80px;
+        padding-left: 20px;
+        width: 360px;
+    }
+    
+    .mensagem:focus {
+        outline: none;
+    }
+    
+    .imagem__mensagem {
+        background: #FFF;
+        color: #0A3871;
+        height: 300px;
+        margin-top: 120px;
+        width: 335px;
+    }
+    
+    .imagem__mensagem:focus {
+        outline: none;
+    }
+    
+    .text__cript {
+        background-color: #FFF;
+        border: none;
+        color: #495057;
+        display: none;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-left: 10px;
+        outline: 0;
+        resize: none;
+        width: 335px;
+    }
+    
+    .boneco {
+        background: #FFF;
+        display: flex;
+        height: 304px;
+        margin-left: 15px;
+        width: 335px;
+    }
+    
+    .h5__mensagem {
+        align-self: stretch;
+        background: #FFF;
+        color: #343A40;
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-left: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .p__mensagem {
+        align-self: stretch;
+        background: #FFF;
+        color: #495057;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .btn__copiar {
+        align-items: flex-start;
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        display: none;
+        height: 67px;
+        margin-left: 13px;
+        margin-top: 330px;
+        width: 336px;
+    }
+}

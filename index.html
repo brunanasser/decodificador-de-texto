@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsivo.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo__alura" src="./imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text__area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                <div class="informacao">
+                    <img class="atencao" src="./imagens/exclamacao.png" alt="Ponto de exclamação">
+                    <h6 class="h6__atencao">Apenas letras minúsculas e sem acentos.</h6>
+                </div>
+
+                <div class="botoes">
+                    <button class="btn__encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn__desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+        </section>
+
+        <section class="mensagem">
+            <div class="imagem__mensagem">
+                <textarea class="text__cript" id="texto__copiar" cols="1" rows="15"></textarea>
+                <img class="boneco" src="./imagens/boneco.png">
+                <h4 class="h5__mensagem">Nenhuma mensagem encontrada</h4>
+                <p class="p__mensagem">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="btn__copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
